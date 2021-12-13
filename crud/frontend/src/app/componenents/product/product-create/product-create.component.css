@@ -1,0 +1,19 @@
+.cadastro .title{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.cadastro .subtitle{
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-right: 15px;
+    margin-top: 20px;
+}

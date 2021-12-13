@@ -1,14 +1,19 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Caneta",
-            "price": 5.89
-        },
-        {
-            "id": 2,
-            "name": "Caderno",
-            "price": 25.99
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Caderno",
+      "price": 25.99
+    },
+    {
+      "name": "Fone",
+      "price": 20,
+      "id": 3
+    }
+  ]
 }
