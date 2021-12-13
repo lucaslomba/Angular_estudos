@@ -3,8 +3,17 @@
 }
 
 .sidenav a{
+    color: #363636;
+    transition: 0.2s;
+}
+
+.sidenav a i{
     color: #3f51b5;
     transition: 0.2s;
+}
+
+.sidenav a:hover i{
+    color: white;
 }
 
 .sidenav a:hover{
@@ -14,4 +23,10 @@
 
 .sidenav i {
     padding-right: 10px;
+}
+
+.content {
+    margin-top: 3px;
+    padding: 16px;
+    background-color: white;
 }
