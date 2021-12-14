@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component'
 import { ProductCrudComponent } from './views/product-crud/product-crud.component'
 import { ProductCreateComponent } from './componenents/product/product-create/product-create.component'
+import { ProductUpdateComponent } from './componenents/product/product-update/product-update.component'
+import { ProductDeleteComponent } from './componenents/product/product-delete/product-delete.component'
 
 const routes: Routes = [
   {
@@ -17,6 +19,14 @@ const routes: Routes = [
   {
     path: "products/create",
     component: ProductCreateComponent
+  },
+  {
+    path: "products/update/:id",
+    component: ProductUpdateComponent
+  },
+  {
+    path: "products/delete/:id",
+    component: ProductDeleteComponent
   }
 ];
 

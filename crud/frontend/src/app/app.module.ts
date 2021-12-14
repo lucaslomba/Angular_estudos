@@ -27,7 +27,9 @@ import { MatTableModule } from '@angular/material/table';
 import { ProductReadComponent } from './componenents/product/product-read/product-read.component'
 
 import localePt from '@angular/common/locales/pt'
-import { registerLocaleData } from '@angular/common'  
+import { registerLocaleData } from '@angular/common';
+import { ProductUpdateComponent } from './componenents/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './componenents/product/product-delete/product-delete.component'  
 
 registerLocaleData(localePt)
 
@@ -41,7 +43,9 @@ registerLocaleData(localePt)
     ProductCrudComponent,
     RedDirective,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,
