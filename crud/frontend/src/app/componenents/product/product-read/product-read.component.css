@@ -1,3 +1,28 @@
 table {
     width: 100%;
 }
+
+i {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+}
+
+i.edit {
+    color: #d9cd26;
+}
+
+i.delete {
+    color: #e35e6b;
+}
+
+i.edit:hover {
+    background-color: #d9cd26;
+    color: white;
+}
+
+i.delete:hover {
+    background-color: #e35e6b;
+    color: white;
+}
